@@ -7,7 +7,7 @@ namespace Azure_Api_Project
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-
+             
             builder.Services.AddControllers();
 
             builder.Services.AddCors(options => 
